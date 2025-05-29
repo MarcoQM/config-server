@@ -7,8 +7,6 @@ eureka:
   instance:
     instance-id: ${spring.application.name}:${random.value}
 spring:
-  application:
-    name: api-gateway
   cloud:
     gateway:
       routes:
