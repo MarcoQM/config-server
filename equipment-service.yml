@@ -8,8 +8,6 @@ spring:
     database-platform: org.hibernate.dialect.MariaDBDialect
     hibernate:
       ddl-auto: update
-  application:
-    name: equipment-service
 eureka:
   instance:
     instance-id: ${spring.application.name}:${random.value}
