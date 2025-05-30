@@ -6,6 +6,7 @@ spring:
     password: sasa
   jpa:
     database-platform: org.hibernate.dialect.MariaDBDialect
+    generate-ddl: true
     hibernate:
       ddl-auto: update
 eureka:
